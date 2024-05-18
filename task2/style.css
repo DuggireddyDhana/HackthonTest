@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#B4E4FF;
+}
+
+form {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color:#FFF5AB;
+}
+
+th, td {
+    border: 1px solid #E9A8F2;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #E9A8F2;
+}
+p{
+    background-color:#EEF296;
+
+}

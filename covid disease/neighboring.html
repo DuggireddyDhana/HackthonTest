@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neighboring Countries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Neighboring Countries</h1>
+    <div class="dropdown">
+        <label for="countrySelect">Select Country:</label>
+        <select id="countrySelect"></select>
+        <button id="submitBtn">Submit</button>
+    </div>
+    <table id="neighboringTable">
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Cases</th>
+                <th>Deaths</th>
+                <th>Recoveries</th>
+                <th>Vaccinations</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated dynamically with JavaScript -->
+        </tbody>
+    </table>
+    <script src="neighboring.js"></script>
+</body>
+</html>
